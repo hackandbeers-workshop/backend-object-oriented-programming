@@ -1,0 +1,12 @@
+<phpunit bootstrap="./bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="My Test Suite">
+            <directory>./courserama</directory>
+        </testsuite>
+    </testsuites>
+    <groups>
+        <exclude>
+            <group>incomplete</group>
+        </exclude>
+    </groups>
+</phpunit>
