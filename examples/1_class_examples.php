@@ -1,6 +1,10 @@
 <?php
-
+/**
+ * Basic composition of a class. 
+ * It should contain state and behavior.
+ */
 abstract class Person{
+    // Visibility scope //
     protected $firstName;
     protected $lastName;
 
@@ -14,6 +18,9 @@ abstract class Person{
     }
 }
 
+/**
+ * Inheritance examples
+ */
 class Student extends Person {}
 class Teacher extends Person{
     /**
